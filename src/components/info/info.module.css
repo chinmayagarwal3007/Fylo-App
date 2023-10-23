@@ -1,0 +1,39 @@
+.container{
+    margin-right: 150px;
+    gap: 15px
+}
+
+.form form{
+    background-color: white;
+    border-radius: 3px;
+    padding: 8px;
+    width: 350px;
+    height: 45px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.customButton {
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%); /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Light shadow at the bottom */
+  
+    cursor: pointer; /* Cursor turns to pointer on hover */
+  }
+  
+.customButton:hover {
+    background-color: #000C66; /* Darker blue background color on hover */
+  }
+
+  .input {
+    outline: none; /* Remove the default focus outline */
+    border: none; /* Remove the border */
+    /* Add any other desired styling here */
+  }

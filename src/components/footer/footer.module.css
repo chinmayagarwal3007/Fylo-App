@@ -1,0 +1,53 @@
+.container{
+     background-color: hsl(243, 87%, 12%);
+     padding: 50px;
+     flex-wrap: wrap;
+     color: white;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.phone{
+    display: flex;
+    gap: 5px;
+}
+
+.email{
+    display: flex;
+    gap: 5px;
+}
+
+.xyz:hover{
+    color:  hsl(238, 22%, 44%);
+}
